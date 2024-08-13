@@ -1,0 +1,24 @@
+.container {
+    box-sizing: border-box;
+    width: 200px;
+    border: solid 1px lightgray;
+    padding: 2px;
+    margin-right: 4px;
+}
+
+.container .btn {
+    float:right;
+}
+
+.container .edit, .container .text {
+    display: block;
+    max-width: 110px;
+    margin: 7px;
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.container .text {
+    padding: 6px;
+}

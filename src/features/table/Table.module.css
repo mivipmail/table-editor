@@ -1,0 +1,53 @@
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.container .title {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 80px;
+    font-size: medium;
+}
+
+.container .textAreaH {
+    text-align: left;
+    font-size:smaller;
+}
+
+.container .textArea {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.actionsContainer button {
+    width: 100px;
+}
+
+.addRowContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: dashed 2px lightgray;
+}
+
+.addRowContainer input {
+    margin-bottom: 8px;
+}
+
+.incorrectMessage {
+    text-align: left;
+    color: red;
+}
+
+.voidTable {
+    border: dashed 2px lightgray;
+    padding: 10px;
+}

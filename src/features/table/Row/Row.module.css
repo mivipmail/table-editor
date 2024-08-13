@@ -1,0 +1,20 @@
+.container {
+    box-sizing: border-box;
+    padding: 2px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+}
+
+.btnContainer {
+    border: solid 1px lightgray;
+    padding: 1.5px 2px;
+    margin-right: 10px;
+    width: 29px;
+}
+
+.btn {
+    width: 25px;
+}
